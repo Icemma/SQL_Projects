@@ -68,3 +68,18 @@ VALUES
 ('9', 'Kelvin', 'Peters', 'kelvin.peters@hotmail.com', '0803‑123‑0009', 'Asaba'),
 ('10', 'Blessing', 'Mark', 'Blessing.mark@gmail.com', '0803‑123‑0010', 'Uyo');
 </pre>
+
+![image alt](https://github.com/Icemma/SQL_Projects/blob/e5c277c01abe3c27f9d3542032e110c51c4a4cbc/Screenshot%202025-07-25%20155506.png)
+
+## Answers to Analytical Questions and Results
+
+1. Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”
+<pre>
+--Return the FirstName and Email of every customer who has ever purchased the product “Wireless Mouse”
+select c.firstname, c.email from customertb c
+join OrdersTB o on c.CustomerID = o.CustomerID
+join ProductTB p on o.ProductID = p.ProductID
+where p.ProductID=1
+</pre>
+
+
