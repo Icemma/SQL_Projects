@@ -101,7 +101,7 @@ FROM CustomerTB
 ORDER BY LastName ASC, FirstName ASC;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/d53af83ffe091da35c95addf486b816306b63887/Screenshot%202025-07-25%20155057.png)
+![image alt](https://github.com/Icemma/SQL_Projects/blob/2c9002e38f1ca25e9d587978d3fdf0253a577f1e/Screenshot%202025-07-25%20155057.png)
 
 3. **Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.**
 <pre>
